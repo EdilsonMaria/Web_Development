@@ -1,12 +1,3 @@
-# Projeto em Contribuição com:
-
-Nome - Nayara dos Santos Nascimento
-Email - santosnay99@gmail.com
-
-Link GitHub: https://github.com/nayarasn
-Link Linkedid https://www.linkedin.com/in/nayarasnascimento/
-
-
 # WEB DEVELOPMENT
 
 O projeto a seguir é uma aplicação web seguindo os padrões de API REST, se trata de uma aplicação de Aluno Online, um sistema universitária, com fuções:
