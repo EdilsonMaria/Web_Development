@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   app:
+    container_name: web_back
     build: api/
     restart: always
     ports:
@@ -12,16 +13,22 @@ services:
       - SPRING_DATASOURCE_PASSWORD=${SPRING_DATASOURCE_PASSWORD}
     depends_on:
       - db
+    networks:
+      - web_networks
 
   web:
+    container_name: web_front
     build: web/
     restart: always
     ports:
       - "3000:80"
     depends_on:
       - db
+    networks:
+      - web_networks
 
   db:
+    container_name: web_DB
     image: postgres:14
     restart: always
     environment:
@@ -35,6 +42,11 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+    networks:
+      - web_networks
 
 volumes:
   db_data:
+
+networks:
+  web_networks:
