@@ -23,6 +23,15 @@ Este projeto é uma aplicação web que segue os padrões de API REST. Trata-se 
 
 A aplicação implementa operações completas de **CRUD** (`POST`, `GET`, `PUT`, `DELETE`) para as funcionalidades acima.
 
+### ✅ Testando a Aplicação
+- Na pagina inicial "Home" clique em "Serviços":
+- Na pagina de "Serviços" clique em "Coordenação":
+- Na pagina de "Coordenação" faça o cadastro com um usuario e senha qualquer:
+- Na pagina de "Gerenciamento" clique em "Cadastro Professor":
+- Prencha com o "Nome" e "Email" do professor e clique em "Cadastrar", exibirar uma tela de "Professor cadastrado com sucesso!":
+- Volte para a pagina de "Gerenciamento" clique em "Buscar Todos os Professores":
+- Será feito o donwload de um arquivo CSV, nele estara as infromações de cadastro de professor!
+
 ---
 
 ## 📚 Índice
