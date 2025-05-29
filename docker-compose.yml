@@ -3,7 +3,7 @@ version: '3.8'
 services:
   app:
     container_name: web_back
-    build: api/
+    image: edilsonmaria/api:1.0
     restart: always
     ports:
       - "8080:8080"
@@ -18,7 +18,7 @@ services:
 
   web:
     container_name: web_front
-    build: web/
+    image: edilsonmaria/web:1.0
     restart: always
     ports:
       - "3000:80"
