@@ -73,8 +73,8 @@ Este projeto visa demonstrar como o front-end interage com APIs REST através de
 
 ### Clonando o Repositório
 ```bash
-git clone https://github.com/EdilsonMaria/Banco_dados_Avancados.git
-cd Banco_dados_Avancados
+git clone https://github.com/EdilsonMaria/Web_Development.git
+cd Web_Development
 ```
 
 ---
@@ -98,17 +98,37 @@ spring.jpa.hibernate.ddl-auto=update
 
 ---
 
-## 🐳 Uso com Docker
+## 🐳 Uso com Docker: Fazendo o Build das Imagens
 
 1. Acesse o diretório raiz do projeto:
 ```bash
-cd <diretório-do-projeto>
+cd <Web_Development>
 ```
 
 2. Execute o comando:
 ```bash
 docker compose up --build -d
 ```
+
+3. Video no Linkendin exibindo como executar:
+```bash
+https://www.linkedin.com/posts/edilson-maria-a73477179_celebre-sempre-suas-pequenas-conquistas-activity-7259270311982891008-C1go?utm_source=share&utm_medium=member_desktop&rcm=ACoAACo_7DcBaEl3QDRm0_5YwcIEICrv4fd1tzI
+```
+
+---
+
+## 🐳 Uso com Docker: Utilizando as imagens do Docker Hub 
+
+1. Acesse o diretório raiz do projeto:
+```bash
+cd <Web_Development>
+```
+
+2. Execute o comando:
+```bash
+docker compose up -d
+```
+
 
 ---
 
